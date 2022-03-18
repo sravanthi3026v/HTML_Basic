@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- 3.Design a contact us form with all fields as required. -->
+
+   <div class="container">
+   <form>
+        <label for="fname">FirstName</label><br>
+        <input type="text" id="fname" placeholder="your first name"><br><br>
+        <label for="lname">LastName</label><br>
+        <input type="text" id="lname" placeholder="your last name"><br><br>
+        <label for="mail">Email-Id</label><br>
+        <input type="email" id="mail" placeholder="your email"><br><br>
+        <label for="number">Mobile-Number</label><br>
+        <input type="number" id="number" placeholder="your number"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+
+    <!-- 4.Use certain HTML elements to display the following in a HTML page. -->
+
+    <ul>
+        <li>Programming Language</li>
+        <ul>
+            <li>Javascript</li>
+            <ol type="a">
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue.js</li>
+            </ol>
+        </ul>
+        <ul>
+            <li>Python</li>
+            <ol type="a">
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+            </ol>
+        </ul>
+        <ul>
+            <li>Java</li>
+            <ol type="a">
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+            </ol>
+        </ul>       
+    </ul>
+    <ul>
+        <li>Database</li>
+        <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Cansandra</li>
+        </ul>
+    </ul>
+
+    <!-- 5.Create an element that helps you to open the https://google.com in separate new tab. -->
+
+    <a href="https://google.com" target="_blank">click here</a>   
+
+    <br><br>
+
+    <!-- 6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+    
+    <div class="container">
+    <form>
+        <label for="Employee">Employee Type:</label>
+        <input type="radio" name="income">Salaried 
+        <input type="radio" name="income">own business
+    </form>
+    </div>
+    <br>
+    <!-- 7.Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+
+    <div class="container1">
+    <form>
+        <div class="main">
+        <label for="heading">Yes! I Want to subscribe to Mag-O-Zine</label><br>
+        </div> <br>
+        <div class="flex">
+        <div>
+        <hr width="300%">
+        <label for="fname">first Name</label>
+        </div>
+        <div style="margin-left: 10rem;">
+        <hr width="300%">
+        <label for="lname">Last Name</label>
+        </div>
+        </div> 
+
+        <hr width="100%">
+        <label for="Add">Address</label><br>
+
+        <div class="flex">
+        <div>
+        <hr width="300%">
+        <label for="city">City</label>
+        </div>
+        <div style="margin-left: 8rem;">
+        <hr width="300%">
+        <label for="state">State</label>
+        </div>
+        <div style="margin-left: 8rem;">
+        <hr width="300%">
+        <label for="zip">Zip</label><br>        
+        </div>
+        </div>
+        <br>        
+
+        <label for="subscribe"><b>Subscribe for:</b></label>
+
+        <input type="checkbox" name="year"><b>1 year ($19.95)</b> 
+
+        <input type="checkbox" name="year"><b>2 years ($35.00)</b><br>
+
+        <label for="subscribe"><b>Send me more information about:</b></label><br>
+
+        <input type="checkbox" name="Zine"><b>Computer-Zine</b><br>
+
+        <input type="checkbox" name="Zine"><b>Fishing-Zine</b><br>
+
+        <input type="checkbox" name="Zine"><b>Cat-O-Zine</b><br>                
+
+    </form>
+    </div>
+
+    <br>
+
+    <!-- 8.Use the table tag to design given image Click here. -->
+     
+    <table border="1" cellspacing="10" cellpadding="10"> 
+        <caption>Health Chart</caption>
+        <tbody>
+            <tr> 
+                <td rowspan="2">State of Health</td>
+                <td colspan="2">Fasting Value</td>
+                <td>After Eating</td>
+            </tr>      
+            <tr>
+                <td>minimum</td>
+                <td>maximum</td>
+                <td>2 hours after eating</td>
+            </tr>   
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>     
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>     
+        </tbody>        
+    </table>
+    <br>
+
+    <!-- 9.Write HTML input tags snippet to show default values for all Form elements. -->
+
+    <form>
+        <input type="text" id="fname" placeholder="John"><br><br>
+        <input type="text" id="lname" placeholder="DOe"><br><br>
+        <input type="email" id="mail" placeholder="John@gmail.com"><br><br>
+        <input type="number" id="number" placeholder="9876543219"><br><br>
+    </form>
+
+    <!-- 10.In your, HTML page add the below line and Highlight it without using any CSS.
+    "HTML & CSS is awesome" -->
+
+    <mark>"HTML & CSS is awesome"</mark>
+
+    <br><br>
+    <!-- 11.Create an HTML page, which should contain all types of input elements. -->
+
+    Text:<input type="text"><br><br>
+    Button:<input type="button" value="click"><br><br>
+    Checkbox:<input type="checkbox"><br><br>
+    Color:<input type="color"><br><br>
+    Date:<input type="date"><br><br>
+    Datetime-Local:<input type="datetime-local"><br><br>
+    Email-Id:<input type="email"><br><br>
+    File:<input type="file"><br><br>
+    hidden:<input type="hidden"><br><br>
+    Image:<input type="image"><br><br>
+    Month:<input type="month"><br><br>
+    Number:<input type="number"><br><br>
+    Password:<input type="password"><br><br>
+    Radio:<input type="radio"><br><br>
+    Range:<input type="range"><br><br>
+    Reset:<input type="reset"><br><br>
+    Search:<input type="search"><br><br>
+    Submit:<input type="submit"><br><br>
+    Tel:<input type="tel"><br><br>
+    Time:<input type="time"><br><br>
+    URL:<input type="url"><br><br>
+    Week:<input type="week"><br><br>  
+
+</body>
+</html>
